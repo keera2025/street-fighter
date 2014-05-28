@@ -1,0 +1,95 @@
+/* 
+Project Name: Street Fighter;
+Client: One Month
+Author: Keerthana Suri
+*/
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+body{
+	background-color:#9CBA7F;
+	font-family: 'Playball', cursive;
+}
+
+.main{
+	background-image:url('../images/background.gif');
+	background-size: 100%;
+	padding-left:100px;
+	height:550px;
+	margin-top: 110px;
+	min-width: 1200px;
+	clear:both;
+}
+
+.logo{
+	float:left;
+	width:400px;
+	margin-right:200px;	
+	margin-left: 70px;
+}
+
+.logo img {
+	border-radius: 300px;
+}
+
+.directions{
+	color:black;
+	margin-bottom: 10px;
+	font-size: 25px;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+
+.directions li{
+	padding:10px;
+}
+
+.highlight{
+	color: red;
+}
+
+/*----------------------------------------------------------------------------- 
+02=BODY
+-----------------------------------------------------------------------------*/
+
+.ryu {
+	float: left;
+}
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+	width: 659px;
+	height: 494px;
+	margin-top: 70px;
+}
+.ryu-still {
+	display: block;
+}
+.ryu-ready, .ryu-throwing, .ryu-cool {
+	display: none;
+}
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
+}
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+}
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+}
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+	background-repeat: no-repeat;
+}
+
+.hadouken{
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  display: none;
+  position: relative;
+  top: 270px;
+  left: -212px;
+  float: left;
+}
